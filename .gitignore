@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+test_project-env/
+.env/
+venv/
+.venv/
+
+# pyenv local version file
+.python-version
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
