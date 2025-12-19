@@ -1,4 +1,3 @@
-
 import pytest
 from unittest.mock import patch, Mock
 from requests.exceptions import HTTPError
@@ -16,7 +15,6 @@ def test_get_json_success():
         result = get_json("https://fackurl.example")
         assert result == {"key": "value"}
         mock_get.assert_called_with("https://fackurl.example", timeout=5)
-
 
 
 def test_get_json_http_error():
